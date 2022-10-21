@@ -1,0 +1,29 @@
+body {
+    background-color:wheat;
+}
+.header {
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 80px;
+}
+.sidenav {
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .sidenav a {
+    display: flex;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
